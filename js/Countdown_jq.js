@@ -6,7 +6,7 @@ $(document).ready(function () {
 })
  function  timing() {
      var currentTime= new Date();
-     var endTime= new Date("2017/5/20 00:00:00");
+     var endTime= new Date("2017/6/20 00:00:00");
      var seconds= (endTime.getTime() - currentTime.getTime())/1000;
      var d=Math.floor(seconds/(60*60*24));
      var h=Math.floor(seconds/60/60%24);
